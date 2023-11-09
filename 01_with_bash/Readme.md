@@ -15,6 +15,8 @@ cp /bin/bash bin/bash
 ldd bin/bash #--> copy shared libraries
 ldd bin/toybox #--> copy shared libraries
 # some times lib folders are just simlinks so be aware where they point
+mkdir etc/bash
+echo "PS1='handMade@container:$ ' " > etc/bash/.bashrc
 sudo bin/toybox chroot $(pwd) bin/bash
 #done
 ```
