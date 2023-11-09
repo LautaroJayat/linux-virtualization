@@ -51,6 +51,5 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
-toybox
-rootfs
+01_with_bash/rootfs
 
