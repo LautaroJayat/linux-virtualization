@@ -1,0 +1,3 @@
+[submodule "01_with_bash/toybox"]
+	path = 01_with_bash/toybox
+	url = https://github.com/landley/toybox.git
